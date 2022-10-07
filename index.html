@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Jan Phillip Dacallos</title>
+</head>
+<body>
+    <header id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <img src = "img/logo.png" class = "logo">
+                </div>
+
+
+                <div class="nav-list">
+                    <div class="menu-bar">
+                        <h3 class = "menu">Menu</h3>
+                        <div class="hamburger">
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+
+                    <ul>
+                        <li><a href = "#" data-after = "Home">Home</a></li>
+                        <li><a href = "#" data-after = "About">About</a></li>
+                        <li><a href = "#" data-after = "Services">Services</a></li>
+                        <li><a href = "#" data-after = "Projects">Projects</a></li>
+                        <li><a href = "#" data-after = "Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="home container">
+            <div class="avatar">
+                <img src = "img/photo.png">
+            </div>
+
+            <div class="avatar-content">
+                <p style = "text-align: left">Hello, I am<span class = "designSpan"></span></p>
+                <h1><span>J</span>an <span>P</span>hillip M. <span>D</span>acallos<span class = "designSpan"></span></h1>
+                <p class = "sub-title">Full Stack Developer / Graphic Designer /<br> System Analyst<span class = "designSpan"></span></p>
+            </div>
+
+            <a href = "#" type = "button" class = "btn" target = "_blank">Hire Me</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about container">
+            <div class="col-right">
+                <div class="section-title">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Full Stack Developer</h3>
+                </div>
+                <div class="section-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias consequuntur tempora cupiditate earum itaque modi magnam perspiciatis quod adipisci numquam!</p>
+                </div>
+            </div>
+
+            <div class="col-left">
+                <div class="about-avatar">
+                    <img src="img/about_image.jpeg" alt="about_image.jpeg">
+                </div>
+            </div>
+
+            <a href = "#" type = "button" target = "_blank" class = "btn">view resume</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="services container">
+            <div class="section-title">
+                <h1>Serv<span>i</span>ces</h1>
+            </div>
+            <div class="section-content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione esse dolorem ducimus, magnam sed quos. Error reprehenderit, expedita tempora, repellat totam porro fugiat accusantium hic, vel deleniti velit harum libero.</p>
+            </div>
+
+            <div class="cards">
+                <div class="service-card">
+                    <div class="card-info cardInfo1 card1">
+                        <img src = "img/icons/compress_70px.png" class = "minimize min1" onclick="minReview1()">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero necessitatibus delectus blanditiis adipisci non. Dignissimos molestias, soluta temporibus reiciendis odio cumque, dolores, repellat fuga doloremque consectetur adipisci? Dolorem, architecto vitae.</p>
+                    </div>
+
+                    <img src = "img/icons/web_70px.png" alt = "web_70px.png" class = "web-icon">
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est architecto facilis perspiciatis at magnam labore?</p>
+                    <p class = "show-text showText1" onclick="showReview1()">Know More...</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-info cardInfo2 card2">
+                        <img src = "img/icons/compress_70px.png" class = "minimize min2" onclick = "minReview2()">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero necessitatibus delectus blanditiis adipisci non. Dignissimos molestias, soluta temporibus reiciendis odio cumque, dolores, repellat fuga doloremque consectetur adipisci? Dolorem, architecto vitae.</p>
+                    </div>
+
+                    <img src = "img/icons/adobe_photoshop_70px.png" alt = "web_70px.png" class = "web-icon">
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est architecto facilis perspiciatis at magnam labore?</p>
+                    <p class = "show-text showText2" onclick="showReview2()">Know More...</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-info cardInfo3 card3">
+                        <img src = "img/icons/compress_70px.png" class = "minimize min3" onclick = "minReview3()">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero necessitatibus delectus blanditiis adipisci non. Dignissimos molestias, soluta temporibus reiciendis odio cumque, dolores, repellat fuga doloremque consectetur adipisci? Dolorem, architecto vitae.</p>
+                    </div>
+
+                    <img src = "img/icons/code_70px.png" alt = "web_70px.png" class = "web-icon">
+                    <h3>Software Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est architecto facilis perspiciatis at magnam labore?</p>
+                    <p class = "show-text showText3" onclick="showReview3()">Know More...</p>
+                </div>
+                <div class="service-card">
+                    <div class="card-info cardInfo4 card4">
+                        <img src = "img/icons/compress_70px.png" class = "minimize min4" onclick = "minReview4()">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero necessitatibus delectus blanditiis adipisci non. Dignissimos molestias, soluta temporibus reiciendis odio cumque, dolores, repellat fuga doloremque consectetur adipisci? Dolorem, architecto vitae.</p>
+                    </div>
+
+                    <img src = "img/icons/database_administrator_70px.png" alt = "web_70px.png" class = "web-icon">
+                    <h3>Data Maintenance</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est architecto facilis perspiciatis at magnam labore?</p>
+                    <p class = "show-text showText4" onclick = "showReview4()">Know More...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src = "app.js"></script>
+</body>
+</html>
